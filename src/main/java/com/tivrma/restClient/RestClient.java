@@ -1,0 +1,74 @@
+/**
+ * The ResourceServer Project, BSD License,Copyright (c) 2019
+ * All rights reserved.
+**/
+package com.tivrma.restClient;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Set;
+import java.util.concurrent.Callable;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestTemplate;
+
+import com.tivrma.config.ErrorCodeMsgConstant;
+import com.tivrma.config.YAMLConfig;
+import com.tivrma.exception.TivrmaException;
+import com.tivrma.util.CommonUtility;
+
+/**
+ * @author shriram
+ *
+ */
+
+@Service
+public class RestClient {
+
+	/**
+	 * 
+	 */
+	@Autowired
+	RestTemplate restTemplate;
+
+	/**
+	 * 
+	 */
+	@Autowired
+	YAMLConfig config;
+	
+	/**
+	 * 
+	 */
+	@Autowired
+	CommonUtility commonUtility;
+
+	/**
+	 * 
+	 */
+	@Autowired
+	ErrorCodeMsgConstant errormsgConfig;
+	/**
+	 * 
+	 */
+	private final static int MAX_THREAD = 20;
+
+	/**
+	 * Logger Object
+	 */
+	private static final Logger LOGGER = LoggerFactory.getLogger(RestClient.class);
+
+	/**
+	 * @param finaloaitmMap
+	 */
+	
+}

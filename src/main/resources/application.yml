@@ -1,0 +1,53 @@
+server:
+  port: 9091
+  servlet:
+   context-path: /Tivrma
+spring:
+  data:
+    mongodb:
+      host: 127.0.0.1
+      port: 27017
+      database: Tirvma
+      minConnectionsPerHost: 10
+      maxConnectionsPerHost: 100
+      threadsAllowedToBlockForConnectionMultiplier: 5
+      serverSelectionTimeout: 30000
+      maxWaitTime: 120000
+      maxConnectionIdleTime: 0
+      maxConnectionLifeTime: 0
+      connectTimeout: 10000
+      socketTimeout: 0
+      socketKeepAlive: false
+      sslEnabled: false
+      sslInvalidHostNameAllowed: false
+      alwaysUseMBeans: false
+      heartbeatSocketTimeout: 20000
+      heartbeatConnectTimeout: 20000
+      minHeartbeatFrequency: 500
+      heartbeatFrequency: 10000
+      localThreshold: 15 
+      collectionsList :
+        - Mother
+        - MotherMenu
+        - MotherRating
+        - CartItem
+constant:
+   authenticationUrl: http://localhost:8088/oauth/check_token
+   clientId: web-client
+   clientScret: web-client-secret
+   resourceId: oauth
+   adminUrlPattern : /admin/mother/**
+   userUrlPattern : /user/**
+   adminRole : ROLE_ADMIN
+   userRole : ROLE_USER
+  
+logging:
+  file: logs/application-debug.log
+  pattern:
+    console: "%d %-5level %logger : %msg%n"
+    file: "%d %-5level [%thread] %logger : %msg%n"
+  level:
+    org.springframework.web: DEBUG
+    com.stokck.oauth2.authserver: DEBUG
+    org.hibernate: DEBUG
+    

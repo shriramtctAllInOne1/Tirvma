@@ -1,0 +1,294 @@
+2019-07-03 20:55:52,914 INFO  [main] com.tivrma.Tivrma : No active profile set, falling back to default profiles: default
+2019-07-03 20:55:55,276 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-03 20:55:55,354 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57ms. Found 0 repository interfaces.
+2019-07-03 20:55:55,562 INFO  [main] org.springframework.cloud.context.scope.GenericScope : BeanFactory id=f9763ab0-8677-3772-9738-df397136fa80
+2019-07-03 20:55:55,651 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$4dbe8644] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-03 20:55:55,662 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-03 20:55:55,667 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@4d96250' of type [org.springframework.security.oauth2.provider.expression.OAuth2MethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-03 20:55:55,669 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'resourceServerMethodSecurityConfig' of type [com.tivrma.conf.ResourceServerMethodSecurityConfig$$EnhancerBySpringCGLIB$$a2f91fb1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-03 20:55:55,674 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-03 20:55:55,691 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$d12ac107] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-03 20:55:56,698 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 9091 (http)
+2019-07-03 20:55:56,991 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2019-07-03 20:55:56,992 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-07-03 20:55:57,463 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/Tivrma] : Initializing Spring embedded WebApplicationContext
+2019-07-03 20:55:57,463 DEBUG [main] org.springframework.web.context.ContextLoader : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-07-03 20:55:57,464 INFO  [main] org.springframework.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 4534 ms
+2019-07-03 20:55:57,848 INFO  [main] org.mongodb.driver.cluster : Cluster created with settings {hosts=[127.0.0.1:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-07-03 20:55:57,849 INFO  [main] org.mongodb.driver.cluster : Adding discovered server 127.0.0.1:27017 to client view of cluster
+2019-07-03 20:55:57,902 INFO  [MaintenanceTimer-1-thread-1] org.mongodb.driver.connection : Opened connection [connectionId{localValue:1, serverValue:229}] to 127.0.0.1:27017
+2019-07-03 20:55:57,902 INFO  [cluster-ClusterId{value='5d1cc905318b7d77256df8a5', description='null'}-127.0.0.1:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:2, serverValue:230}] to 127.0.0.1:27017
+2019-07-03 20:55:57,907 INFO  [MaintenanceTimer-1-thread-1] org.mongodb.driver.connection : Opened connection [connectionId{localValue:3, serverValue:231}] to 127.0.0.1:27017
+2019-07-03 20:55:57,907 INFO  [cluster-ClusterId{value='5d1cc905318b7d77256df8a5', description='null'}-127.0.0.1:27017] org.mongodb.driver.cluster : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 7]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3427683}
+2019-07-03 20:55:57,909 INFO  [cluster-ClusterId{value='5d1cc905318b7d77256df8a5', description='null'}-127.0.0.1:27017] org.mongodb.driver.cluster : Discovered cluster type of STANDALONE
+2019-07-03 20:55:57,912 INFO  [MaintenanceTimer-1-thread-1] org.mongodb.driver.connection : Opened connection [connectionId{localValue:4, serverValue:232}] to 127.0.0.1:27017
+2019-07-03 20:55:57,916 INFO  [MaintenanceTimer-1-thread-1] org.mongodb.driver.connection : Opened connection [connectionId{localValue:5, serverValue:233}] to 127.0.0.1:27017
+2019-07-03 20:55:57,920 INFO  [MaintenanceTimer-1-thread-1] org.mongodb.driver.connection : Opened connection [connectionId{localValue:6, serverValue:234}] to 127.0.0.1:27017
+2019-07-03 20:55:57,923 INFO  [MaintenanceTimer-1-thread-1] org.mongodb.driver.connection : Opened connection [connectionId{localValue:7, serverValue:235}] to 127.0.0.1:27017
+2019-07-03 20:55:57,926 INFO  [MaintenanceTimer-1-thread-1] org.mongodb.driver.connection : Opened connection [connectionId{localValue:8, serverValue:236}] to 127.0.0.1:27017
+2019-07-03 20:55:57,930 INFO  [MaintenanceTimer-1-thread-1] org.mongodb.driver.connection : Opened connection [connectionId{localValue:9, serverValue:237}] to 127.0.0.1:27017
+2019-07-03 20:55:57,934 INFO  [MaintenanceTimer-1-thread-1] org.mongodb.driver.connection : Opened connection [connectionId{localValue:10, serverValue:238}] to 127.0.0.1:27017
+2019-07-03 20:55:57,937 INFO  [MaintenanceTimer-1-thread-1] org.mongodb.driver.connection : Opened connection [connectionId{localValue:11, serverValue:239}] to 127.0.0.1:27017
+2019-07-03 20:56:00,627 INFO  [main] org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler : Initializing ExecutorService 'taskScheduler'
+2019-07-03 20:56:00,755 DEBUG [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-07-03 20:56:01,307 INFO  [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-03 20:56:01,335 DEBUG [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-07-03 20:56:01,553 DEBUG [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : 9 mappings in 'requestMappingHandlerMapping'
+2019-07-03 20:56:01,645 DEBUG [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-07-03 20:56:01,686 DEBUG [main] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-07-03 20:56:02,047 INFO  [main] org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 885c88c3-58ce-44c1-bbe3-a57a29b6b217
+
+2019-07-03 20:56:02,422 INFO  [main] org.springframework.security.web.DefaultSecurityFilterChain : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@447fa959, org.springframework.security.web.context.SecurityContextPersistenceFilter@118041c7, org.springframework.security.web.header.HeaderWriterFilter@78e68401, org.springframework.security.web.authentication.logout.LogoutFilter@435e416c, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@19fec3d6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5c4cc644, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@240f350a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3e4d40ea, org.springframework.security.web.session.SessionManagementFilter@6b27b2d0, org.springframework.security.web.access.ExceptionTranslationFilter@26be9a6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3313d477]
+2019-07-03 20:56:02,486 INFO  [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-07-03 20:56:02,953 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 9091 (http) with context path '/Tivrma'
+2019-07-03 20:56:02,958 INFO  [main] com.tivrma.Tivrma : Started Tivrma in 12.687 seconds (JVM running for 14.221)
+2019-07-03 20:57:07,952 INFO  [http-nio-9091-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/Tivrma] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-03 20:57:07,953 INFO  [http-nio-9091-exec-1] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2019-07-03 20:57:07,954 DEBUG [http-nio-9091-exec-1] org.springframework.web.servlet.DispatcherServlet : Detected StandardServletMultipartResolver
+2019-07-03 20:57:07,995 DEBUG [http-nio-9091-exec-1] org.springframework.web.servlet.DispatcherServlet : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2019-07-03 20:57:07,995 INFO  [http-nio-9091-exec-1] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 41 ms
+2019-07-03 20:57:08,094 DEBUG [http-nio-9091-exec-1] org.springframework.web.client.RestTemplate : HTTP POST http://localhost:8088/oauth/check_token
+2019-07-03 20:57:08,170 DEBUG [http-nio-9091-exec-1] org.springframework.web.client.RestTemplate : Accept=[application/json, application/*+json]
+2019-07-03 20:57:08,171 DEBUG [http-nio-9091-exec-1] org.springframework.web.client.RestTemplate : Writing [{token=[47965e21-c15a-435e-8f4a-6cca01ffd5e4]}] as "application/x-www-form-urlencoded"
+2019-07-03 20:57:09,240 ERROR [http-nio-9091-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/Tivrma].[dispatcherServlet] : Servlet.service() for servlet [dispatcherServlet] in context with path [/Tivrma] threw exception
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:8088/oauth/check_token": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:744) ~[spring-web-5.2.0.M2.jar:5.2.0.M2]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:670) ~[spring-web-5.2.0.M2.jar:5.2.0.M2]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:579) ~[spring-web-5.2.0.M2.jar:5.2.0.M2]
+	at org.springframework.security.oauth2.provider.token.RemoteTokenServices.postForMap(RemoteTokenServices.java:149) ~[spring-security-oauth2-2.3.4.RELEASE.jar:na]
+	at org.springframework.security.oauth2.provider.token.RemoteTokenServices.loadAuthentication(RemoteTokenServices.java:106) ~[spring-security-oauth2-2.3.4.RELEASE.jar:na]
+	at org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationManager.authenticate(OAuth2AuthenticationManager.java:83) ~[spring-security-oauth2-2.3.4.RELEASE.jar:na]
+	at org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter.doFilter(OAuth2AuthenticationProcessingFilter.java:150) ~[spring-security-oauth2-2.3.4.RELEASE.jar:na]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.0.M2.jar:5.2.0.M2]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116) ~[spring-security-web-5.2.0.M2.jar:5.2.0.M2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.0.M2.jar:5.2.0.M2]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:93) ~[spring-security-web-5.2.0.M2.jar:5.2.0.M2]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:78) ~[spring-security-web-5.2.0.M2.jar:5.2.0.M2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.2.0.M2.jar:5.2.0.M2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.0.M2.jar:5.2.0.M2]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105) ~[spring-security-web-5.2.0.M2.jar:5.2.0.M2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.0.M2.jar:5.2.0.M2]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56) ~[spring-security-web-5.2.0.M2.jar:5.2.0.M2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.2.0.M2.jar:5.2.0.M2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.0.M2.jar:5.2.0.M2]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215) ~[spring-security-web-5.2.0.M2.jar:5.2.0.M2]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178) ~[spring-security-web-5.2.0.M2.jar:5.2.0.M2]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357) ~[spring-web-5.2.0.M2.jar:5.2.0.M2]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270) ~[spring-web-5.2.0.M2.jar:5.2.0.M2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.2.0.M2.jar:5.2.0.M2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.2.0.M2.jar:5.2.0.M2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.2.0.M2.jar:5.2.0.M2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.2.0.M2.jar:5.2.0.M2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.2.0.M2.jar:5.2.0.M2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.2.0.M2.jar:5.2.0.M2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:118) ~[spring-boot-actuator-2.2.0.M3.jar:2.2.0.M3]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:107) ~[spring-boot-actuator-2.2.0.M3.jar:2.2.0.M3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.2.0.M2.jar:5.2.0.M2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.2.0.M2.jar:5.2.0.M2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.2.0.M2.jar:5.2.0.M2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:836) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1747) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[na:1.8.0]
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source) ~[na:1.8.0]
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source) ~[na:1.8.0]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source) ~[na:1.8.0]
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[na:1.8.0]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[na:1.8.0]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[na:1.8.0]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0]
+	at sun.net.NetworkClient.doConnect(Unknown Source) ~[na:1.8.0]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[na:1.8.0]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[na:1.8.0]
+	at sun.net.www.http.HttpClient.<init>(Unknown Source) ~[na:1.8.0]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[na:1.8.0]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[na:1.8.0]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source) ~[na:1.8.0]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source) ~[na:1.8.0]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source) ~[na:1.8.0]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source) ~[na:1.8.0]
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:76) ~[spring-web-5.2.0.M2.jar:5.2.0.M2]
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48) ~[spring-web-5.2.0.M2.jar:5.2.0.M2]
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53) ~[spring-web-5.2.0.M2.jar:5.2.0.M2]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:735) ~[spring-web-5.2.0.M2.jar:5.2.0.M2]
+	... 61 common frames omitted
+2019-07-03 20:57:09,247 DEBUG [http-nio-9091-exec-1] org.springframework.web.client.RestTemplate : HTTP POST http://localhost:8088/oauth/check_token
+2019-07-03 20:57:09,247 DEBUG [http-nio-9091-exec-1] org.springframework.web.client.RestTemplate : Accept=[application/json, application/*+json]
+2019-07-03 20:57:09,247 DEBUG [http-nio-9091-exec-1] org.springframework.web.client.RestTemplate : Writing [{token=[47965e21-c15a-435e-8f4a-6cca01ffd5e4]}] as "application/x-www-form-urlencoded"
+2019-07-03 20:57:10,253 ERROR [http-nio-9091-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/Tivrma].[dispatcherServlet] : Servlet.service() for servlet [dispatcherServlet] threw exception
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:8088/oauth/check_token": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:744) ~[spring-web-5.2.0.M2.jar:5.2.0.M2]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:670) ~[spring-web-5.2.0.M2.jar:5.2.0.M2]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:579) ~[spring-web-5.2.0.M2.jar:5.2.0.M2]
+	at org.springframework.security.oauth2.provider.token.RemoteTokenServices.postForMap(RemoteTokenServices.java:149) ~[spring-security-oauth2-2.3.4.RELEASE.jar:na]
+	at org.springframework.security.oauth2.provider.token.RemoteTokenServices.loadAuthentication(RemoteTokenServices.java:106) ~[spring-security-oauth2-2.3.4.RELEASE.jar:na]
+	at org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationManager.authenticate(OAuth2AuthenticationManager.java:83) ~[spring-security-oauth2-2.3.4.RELEASE.jar:na]
+	at org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter.doFilter(OAuth2AuthenticationProcessingFilter.java:150) ~[spring-security-oauth2-2.3.4.RELEASE.jar:na]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.0.M2.jar:5.2.0.M2]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116) ~[spring-security-web-5.2.0.M2.jar:5.2.0.M2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.0.M2.jar:5.2.0.M2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101) ~[spring-web-5.2.0.M2.jar:5.2.0.M2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.0.M2.jar:5.2.0.M2]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105) ~[spring-security-web-5.2.0.M2.jar:5.2.0.M2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.0.M2.jar:5.2.0.M2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101) ~[spring-web-5.2.0.M2.jar:5.2.0.M2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.0.M2.jar:5.2.0.M2]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215) ~[spring-security-web-5.2.0.M2.jar:5.2.0.M2]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178) ~[spring-security-web-5.2.0.M2.jar:5.2.0.M2]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357) ~[spring-web-5.2.0.M2.jar:5.2.0.M2]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270) ~[spring-web-5.2.0.M2.jar:5.2.0.M2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:461) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:394) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:253) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:348) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:173) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:836) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1747) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[na:1.8.0]
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source) ~[na:1.8.0]
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source) ~[na:1.8.0]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source) ~[na:1.8.0]
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[na:1.8.0]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[na:1.8.0]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[na:1.8.0]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0]
+	at sun.net.NetworkClient.doConnect(Unknown Source) ~[na:1.8.0]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[na:1.8.0]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[na:1.8.0]
+	at sun.net.www.http.HttpClient.<init>(Unknown Source) ~[na:1.8.0]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[na:1.8.0]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[na:1.8.0]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source) ~[na:1.8.0]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source) ~[na:1.8.0]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source) ~[na:1.8.0]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source) ~[na:1.8.0]
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:76) ~[spring-web-5.2.0.M2.jar:5.2.0.M2]
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48) ~[spring-web-5.2.0.M2.jar:5.2.0.M2]
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53) ~[spring-web-5.2.0.M2.jar:5.2.0.M2]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:735) ~[spring-web-5.2.0.M2.jar:5.2.0.M2]
+	... 41 common frames omitted
+2019-07-03 20:57:10,262 ERROR [http-nio-9091-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost] : Exception Processing ErrorPage[errorCode=0, location=/error]
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:8088/oauth/check_token": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:744) ~[spring-web-5.2.0.M2.jar:5.2.0.M2]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:670) ~[spring-web-5.2.0.M2.jar:5.2.0.M2]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:579) ~[spring-web-5.2.0.M2.jar:5.2.0.M2]
+	at org.springframework.security.oauth2.provider.token.RemoteTokenServices.postForMap(RemoteTokenServices.java:149) ~[spring-security-oauth2-2.3.4.RELEASE.jar:na]
+	at org.springframework.security.oauth2.provider.token.RemoteTokenServices.loadAuthentication(RemoteTokenServices.java:106) ~[spring-security-oauth2-2.3.4.RELEASE.jar:na]
+	at org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationManager.authenticate(OAuth2AuthenticationManager.java:83) ~[spring-security-oauth2-2.3.4.RELEASE.jar:na]
+	at org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter.doFilter(OAuth2AuthenticationProcessingFilter.java:150) ~[spring-security-oauth2-2.3.4.RELEASE.jar:na]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.0.M2.jar:5.2.0.M2]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116) ~[spring-security-web-5.2.0.M2.jar:5.2.0.M2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.0.M2.jar:5.2.0.M2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101) ~[spring-web-5.2.0.M2.jar:5.2.0.M2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.0.M2.jar:5.2.0.M2]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105) ~[spring-security-web-5.2.0.M2.jar:5.2.0.M2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.0.M2.jar:5.2.0.M2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101) ~[spring-web-5.2.0.M2.jar:5.2.0.M2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.0.M2.jar:5.2.0.M2]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215) ~[spring-security-web-5.2.0.M2.jar:5.2.0.M2]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178) ~[spring-security-web-5.2.0.M2.jar:5.2.0.M2]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357) ~[spring-web-5.2.0.M2.jar:5.2.0.M2]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270) ~[spring-web-5.2.0.M2.jar:5.2.0.M2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:461) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:394) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:253) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:348) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:173) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:836) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1747) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[na:1.8.0]
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source) ~[na:1.8.0]
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source) ~[na:1.8.0]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source) ~[na:1.8.0]
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[na:1.8.0]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[na:1.8.0]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[na:1.8.0]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0]
+	at sun.net.NetworkClient.doConnect(Unknown Source) ~[na:1.8.0]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[na:1.8.0]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[na:1.8.0]
+	at sun.net.www.http.HttpClient.<init>(Unknown Source) ~[na:1.8.0]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[na:1.8.0]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[na:1.8.0]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source) ~[na:1.8.0]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source) ~[na:1.8.0]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source) ~[na:1.8.0]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source) ~[na:1.8.0]
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:76) ~[spring-web-5.2.0.M2.jar:5.2.0.M2]
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48) ~[spring-web-5.2.0.M2.jar:5.2.0.M2]
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53) ~[spring-web-5.2.0.M2.jar:5.2.0.M2]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:735) ~[spring-web-5.2.0.M2.jar:5.2.0.M2]
+	... 41 common frames omitted
+2019-07-03 21:02:06,643 DEBUG [http-nio-9091-exec-4] org.springframework.web.client.RestTemplate : HTTP POST http://localhost:8088/oauth/check_token
+2019-07-03 21:02:06,644 DEBUG [http-nio-9091-exec-4] org.springframework.web.client.RestTemplate : Accept=[application/json, application/*+json]
+2019-07-03 21:02:06,644 DEBUG [http-nio-9091-exec-4] org.springframework.web.client.RestTemplate : Writing [{token=[02ac6faa-636a-4cf6-8ef6-fa40dbd4956d]}] as "application/x-www-form-urlencoded"
+2019-07-03 21:02:06,811 DEBUG [http-nio-9091-exec-4] org.springframework.web.client.RestTemplate : Response 200 OK
+2019-07-03 21:02:06,815 DEBUG [http-nio-9091-exec-4] org.springframework.web.client.RestTemplate : Reading to [java.util.Map<?, ?>]
+2019-07-03 21:02:06,861 DEBUG [http-nio-9091-exec-4] org.springframework.web.servlet.DispatcherServlet : GET "/Tivrma/admin/mother/5d1b730b9e23736c78af9344/rating", parameters={}
+2019-07-03 21:02:06,869 DEBUG [http-nio-9091-exec-4] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped to com.tivrma.web.Tivrmaontroller#getMotherRating(String)
+2019-07-03 21:02:06,985 DEBUG [http-nio-9091-exec-4] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Using 'application/json', given [*/*] and supported [application/json]
+2019-07-03 21:02:07,017 DEBUG [http-nio-9091-exec-4] org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor : Writing [com.tivrma.domain.MotherRating@9d34bab]
+2019-07-03 21:02:07,027 DEBUG [http-nio-9091-exec-4] org.springframework.web.servlet.DispatcherServlet : Completed 200 OK

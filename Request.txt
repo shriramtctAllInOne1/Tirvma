@@ -1,0 +1,103 @@
+Mother Details :
+
+Mother details:
+
+{
+  "motherid": 101,
+  "name": "",
+  "address": "",
+  "locality": "",
+  "city": "",
+  "state": "",
+  "country": "",
+  "latitude": "",
+  "longitude": "",
+  "pincode": "",
+  "mobileNo": "",
+  "altMobileNo": "",
+  "rating": "",
+  "dateCreated": "",
+  "dateUpdated": ""
+}
+-------------------------------------------
+{
+  "menuId": 101,
+  "motherId": "",
+  "dateCreated": "",
+  "dateUpdated": "",
+  "noOfLikes": "",
+  "locality": "",
+  "city": "",
+  "pinCode": "",
+  "MenuItem": [
+    {
+      "itemID": "",
+      "itemName": "",
+      "itemPrice": "",
+      "itemDesc": "",
+      "itemSuffientfor": "",
+      "quantity": ""
+    },
+    {
+      "itemID": "",
+      "itemName": "",
+      "itemPrice": "",
+      "itemDesc": "",
+      "itemSuffientfor": "",
+      "quantity": ""
+    }
+  ]
+}
+-----------------userDetails-------------------------------------------------
+{
+  "userId": "",
+  "name": "",
+  "password": "",
+  "address": "",
+  "locality": "",
+  "city": "",
+  "state": "",
+  "country": "",
+  "locality_lat": 2,
+  "locality_long": 1,
+  "pincode": "",
+  "mobileNo": "",
+  "registration_date": "",
+  "facebook_id": "",
+  "gmailId": "",
+  "status": "",
+  "lastLoginTime": ""
+}
+-------------------------------------orderDetails--------------------------
+{
+  "orderId": "",
+  "motherId": "",
+  "userId": "",
+  "order_amount": "",
+  "discount_amount": "",
+  "discount_percentage": "",
+  "total_amount": "",
+  "total_qty": "",
+  "shipping_charge": 2,
+  "shipping_address": "",
+  "billing_address": "",
+  "ship_zip": "",
+  "ship_city": "",
+  "ship_locality": "",
+  "order_status": "",
+  "datecreated": "",
+  "dateupdated": ""
+}
+---------------------------TxnDetails---------------------------------
+
+{
+  "orderId": "",
+  "motherId": "",
+  "userId": "",
+  "txnId": "",
+  "txnstatus": "",
+  "txndatecreated": "",
+  "txnamount": ""
+}
+
+------------------------------------------------

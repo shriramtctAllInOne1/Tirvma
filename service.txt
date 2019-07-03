@@ -1,0 +1,167 @@
+/**
+ * The ResourceServer Project, BSD License,Copyright (c) 2019
+ * All rights reserved.
+**/
+package com.tivrma.service;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.tivrma.config.TivrmaSuccesCode;
+import com.tivrma.dao.TivramaDAO;
+import com.tivrma.domain.Mother;
+import com.tivrma.domain.MotherMenu;
+import com.tivrma.domain.Order;
+import com.tivrma.domain.User;
+import com.tivrma.exception.TivrmaException;
+import com.tivrma.util.CommonUtility;
+
+/**
+ * 
+ * Service class for curd operation using mongoTemplate and mongoRepository
+ * 
+ * @author shriam
+ *
+ */
+
+@Service
+public class TivramaServiceImpl implements TivramaService {
+
+	/**
+	 * Logger Object
+	 */
+	private static final Logger LOGGER = LoggerFactory.getLogger(TivramaServiceImpl.class);
+
+	/**
+	 * 
+	 */
+	@Autowired
+	TivramaDAO tivramaDAO;
+
+	/**
+	 * 
+	 */
+	@Autowired
+	CommonUtility commonUtility;
+
+	/**
+	 * 
+	 */
+	@Autowired
+	TivrmaSuccesCode succCode;
+
+	/**
+	 * Add mother
+	 * 
+	 * @param mother
+	 * @return
+	 */
+	@Override
+	public Mother addMother(Mother mother) throws TivrmaException {
+		LOGGER.debug("Entering TivramaServiceImpl.class addMother()");
+		Mother motherObj = null;
+		String response = "";
+		try {
+			motherObj = tivramaDAO.addMother(mother);
+			/*
+			 * if (motherObj.getMotherId() != null) { response =
+			 * commonUtility.createSucessResponse(succCode.getSucccode1()); }
+			 */
+		} catch (TivrmaException e) {
+			LOGGER.error("Error while creating mother()");
+			throw e;
+		}
+		return motherObj;
+	}
+
+	/**
+	 * Crate user
+	 * 
+	 * @param user
+	 * @return
+	 * @throws TivrmaException
+	 */
+	@Override
+	public String addUser(User user) throws TivrmaException {
+		LOGGER.debug("Entering TivramaServiceImpl.class addUser()");
+		String response = null;
+		try {
+			User userObj = tivramaDAO.addUser(user);
+			if (userObj.getUserId() != null) {
+				response = commonUtility.createSucessResponse(succCode.getSucccode2());
+			}
+		} catch (TivrmaException e) {
+			LOGGER.error("Error while creating user()");
+			throw e;
+		}
+		return response;
+	}
+
+	/**
+	 * add mother menu
+	 * 
+	 * @param motherMenu
+	 * @return
+	 */
+	@Override
+	public String addMotherMenu(MotherMenu motherMenu) throws TivrmaException {
+		LOGGER.debug("Entering TivramaServiceImpl.class addMotherMenu()");
+		String response = "";
+		try {
+			MotherMenu motherMenuObj = tivramaDAO.addMotherMenu(motherMenu);
+			if (motherMenuObj.getMenu_Id() != null) {
+				response = commonUtility.createSucessResponse(succCode.getSucccode3());
+			}
+		} catch (TivrmaException e) {
+			LOGGER.debug("Entering TivramaServiceImpl.class addMotherMenu()");
+			throw e;
+		}
+		return response;
+	}
+
+	/**
+	 * Create order
+	 * 
+	 * @param order
+	 * @return
+	 */
+	@Override
+	public String createOrder(Order order) throws TivrmaException {
+		LOGGER.debug("Entering TivramaServiceImpl.class createOrder()");
+		String response = null;
+		try {
+			Order orderObj = tivramaDAO.createOrder(order);
+			if (orderObj.getOrderId() != null) {
+				response = commonUtility.createSucessResponse(succCode.getSucccode4());
+			}
+		} catch (TivrmaException e) {
+			LOGGER.debug("Entering TivramaServiceImpl.class createOrder()");
+		}
+		return response;
+	}
+
+	/**
+	 * 
+	 * Update mother menu
+	 * 
+	 * @return
+	 */
+	@Override
+	public String updateMotherMenu() {
+
+		return null;
+	}
+
+	/**
+	 * update user
+	 * 
+	 * @return
+	 */
+	@Override
+	public String updateUser() {
+		return null;
+	}
+
+}

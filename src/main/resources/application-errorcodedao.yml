@@ -1,0 +1,55 @@
+errorcodedao:
+      msgdao1 : ERROR While fetching  from mongodb.
+      msgdao2 : Error while saving .
+      msgdao3 : Error while fetching .
+      msgdao4 : ERROR While creating collection in mongodb.
+      msgdao5 : Error while creating  .
+      msgdao6 : Error while fetching data to calculate oaitm
+      msgdao7 : ERROR While fetching 
+      msgdao8 : ERROR While fetching 
+      msgdao9 : ERROR While fetching 
+      msgdao10 : ERROR While fetching 
+      msg101 :  Input json Request is not valid.
+      msg : ERROR While fetching 
+      errcode101 : errorCode101
+      errcode102 : errorCode102
+      errdaocode1 : ErrorCodeDAO1
+      errdaocode2 : ErrorCodeDAO2
+      errdaocode3 : ErrorCodeDAO3
+      errdaocode4 : ErrorCodeDAO4
+      errdaocode5 : ErrorCodeDAO5
+      errdaocode6 : ErrorCodeDAO6
+      errdaocode7 : ErrorCodeDAO7
+      errdaocode8 : ErrorCodeDAO8
+      errservicecode1 : ErrorCodeService1
+      errservicecode2 : ErrorCodeService2
+      errservicecode3 : ErrorCodeService3
+      errservicecode4 : ErrorCodeService4
+      errservicecode5 : ErrorCodeService5
+      errservicecode6 : ErrorCodeService6
+      errservicecode7 : ErrorCodeService7
+      errservicecode8 : ErrorCodeService8
+      errrestcode1 : ErrorCodeRest1
+      errrestcode2 : ErrorCodeRest2
+      errrestcode3 : ErrorCodeRest3
+      errrestcode4 : ErrorCodeRest4
+      errrestcode5 : ErrorCodeRest5
+      errrestcode6 : ErrorCdeRest6
+      errrestcode7 : ErrorCodeRest7
+succcode:
+      succmsg : succcode
+      succcode1 : succcode1-Mother Details created SucessFully.
+      succcode2 : succcode2-User Details created Sucessfully.
+      succcode3 : succcode3 
+      succcode4 : succcode4   
+      succcode5 : succcode5
+      succcode6 : succcode6 
+      succcode7 : succcode7   
+      succcode8 : succcode8
+      succcode9 : succcode9 
+      succcode10 : succcode10   
+      succcode11 : succcode11
+      succcode12 : succcode12 
+   
+
+    
