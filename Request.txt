@@ -100,4 +100,23 @@ Mother details:
   "txnamount": ""
 }
 
-------------------------------------------------
+------------------------------------------------cartitem---------------
+
+{
+  "motherId":123,
+  "menuitems" : [
+    {
+    "itemId":"2345",
+    "quantiry": "2",
+    "itemPrice" : "30",
+    "subTotal" : "60"
+    },
+     {
+    "itemId":"2345",
+    "quantiry": "2",
+    "itemPrice" : "30",
+    "subTotal" : "60"
+    }],
+    
+  "userId" : 1
+}

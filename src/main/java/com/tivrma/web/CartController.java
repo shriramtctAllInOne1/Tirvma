@@ -1,5 +1,7 @@
 package com.tivrma.web;
 
+import java.io.IOException;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,6 +12,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.tivrma.config.TivrmaSuccesCode;
 import com.tivrma.constant.TivramaConstant;
 import com.tivrma.domain.CartItem;
@@ -49,20 +52,22 @@ public class CartController {
 	 * 
 	 * @param strategy
 	 * @return
-	 * @throws TivrmaException
+	 * @throws Exception 
 	 */
 	@PreAuthorize(TivramaConstant.OAUTH)
 	@PostMapping(path = "/admin/cart/addCartItem", consumes = TivramaConstant.CONTENTTYPE, produces = TivramaConstant.CONTENTTYPE)
-	public ResponseEntity<String> createCart(@RequestBody CartItem cartItem) throws TivrmaException {
+	public ResponseEntity<String> createCart(@RequestBody String cartItem) throws Exception {
 		LOGGER.debug("Entering CartController.class createCart()");
 		CartItem cartItemObj = null;
 		String response = null;
 		try {
-			cartItemObj = cartService.createCart(cartItem);
+			ObjectMapper mapper = new ObjectMapper();
+			CartItem cartItemObj1 = (CartItem) mapper.readValue(cartItem, CartItem.class);
+			cartItemObj = cartService.createCart(cartItemObj1);
 			if (cartItemObj.getId() != null) {
 				response = commonUtility.createSucessResponse(succCode.getSucccode1());
 			}
-		} catch (TivrmaException e) {
+		} catch (TivrmaException | IOException e) {
 			LOGGER.error("Error while creating cartItem");
 			throw e;
 		}

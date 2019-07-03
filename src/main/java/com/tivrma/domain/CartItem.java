@@ -15,7 +15,7 @@ public class CartItem implements Serializable {
 	private static final long serialVersionUID = 1L;
 	
 	@Id
-	Integer id;
+	String id;
 	/**
 	 * 
 	 */
@@ -27,7 +27,7 @@ public class CartItem implements Serializable {
 	/**
 	 * 
 	 */
-	private List<MenuItem> menuItemList;
+	private List<MenuItem> menuitems;
 
 	/**
 	 * @return
@@ -60,29 +60,29 @@ public class CartItem implements Serializable {
 	/**
 	 * @return
 	 */
-	public List<MenuItem> getMenuItemList() {
-		return menuItemList;
-	}
-
-	/**
-	 * @param menuItemList
-	 */
-	public void setMenuItemList(List<MenuItem> menuItemList) {
-		this.menuItemList = menuItemList;
-	}
-
-	/**
-	 * @return
-	 */
-	public Integer getId() {
+	public String getId() {
 		return id;
 	}
 
 	/**
 	 * @param id
 	 */
-	public void setId(Integer id) {
+	public void setId(String id) {
 		this.id = id;
+	}
+
+	/**
+	 * @return
+	 */
+	public List<MenuItem> getMenuitems() {
+		return menuitems;
+	}
+
+	/**
+	 * @param menuitems
+	 */
+	public void setMenuitems(List<MenuItem> menuitems) {
+		this.menuitems = menuitems;
 	}
 
 }

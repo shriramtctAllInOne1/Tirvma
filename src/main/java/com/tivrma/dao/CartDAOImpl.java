@@ -9,7 +9,6 @@ import org.springframework.stereotype.Component;
 import com.tivrma.config.ErrorCodeMsgConstant;
 import com.tivrma.domain.CartItem;
 import com.tivrma.exception.TivrmaException;
-import com.tivrma.web.CartController;
 
 /**
  * @author shriram

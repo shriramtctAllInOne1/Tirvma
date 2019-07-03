@@ -52,7 +52,7 @@ public class CartServiceImpl implements CartService {
 		LOGGER.debug("Entering CartServiceImpl.class createCart()");
 		CartItem cartItemObj = null;
 		try {
-			cartItem = cartDAO.createCart(cartItem);
+			cartItemObj = cartDAO.createCart(cartItem);
 		} catch (TivrmaException e) {
 			LOGGER.error("Error while saving card item");
 			throw e;
